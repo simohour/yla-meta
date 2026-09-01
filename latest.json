@@ -1,7 +1,7 @@
 {
   "app": {
     "version": "2.4.0",
-    "notes": "チャート表示バグを修正しました",
+    "notes": "チャート表示バグ修正・操作ログ搭載・更新通知の恒久修正",
     "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0"
   },
   "data": {
