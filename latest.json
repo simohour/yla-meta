@@ -9,6 +9,8 @@
     "notes": ""
   },
   "live": {
-    "packUrl": "/Users/simo/Library/CloudStorage/Dropbox/YLA-dist"
+    "packUrl": "/Users/simo/Library/CloudStorage/Dropbox/YLA-dist",
+    "version": 20260902,
+    "sha256": "112a8ec143dc89d96230becfd0140353cb491a6464b74fb531e2876f3d08fda7"
   }
 }
