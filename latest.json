@@ -2,7 +2,15 @@
   "app": {
     "version": "2.4.1",
     "notes": "逆引き検索を搭載・Billboard年間チャートの年重複を修復",
-    "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0"
+    "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0",
+    "dmg": {
+      "arm64": {
+        "url": "https://www.dropbox.com/scl/fi/i5j36auihof100niibxts/YLA-AppleSilicon.dmg?rlkey=8fkmuv671s5r0o3kw74pnrvcd&dl=1"
+      },
+      "x86_64": {
+        "url": "https://www.dropbox.com/scl/fi/ffo1n9xnhmx08eohaj3t0/YLA-Intel.dmg?rlkey=bnp3czftfx1mbqp5o2xutj73d&dl=1"
+      }
+    }
   },
   "data": {
     "version": 20260921,
