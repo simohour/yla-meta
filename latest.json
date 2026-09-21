@@ -5,8 +5,8 @@
     "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0"
   },
   "data": {
-    "version": 20260902,
-    "notes": ""
+    "version": 20260921,
+    "notes": "Billboard年間チャートの年重複を修復"
   },
   "live": {
     "packUrl": "https://www.dropbox.com/scl/fi/pmo8z0yxunsc3w2fcbexj/chart-pack.zip?rlkey=nsovy1kyf3tk6158n0vnasmya&dl=1",
