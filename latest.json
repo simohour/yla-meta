@@ -27,5 +27,8 @@
     "packUrl": "https://github.com/simohour/yla-meta/releases/download/live-pack/chart-pack-20260923.zip",
     "version": 20260923,
     "sha256": "3eb527b70d8d0831a5cf8289e9da8b6046c5e864a477542b092f063e6889f945"
+  },
+  "feedback": {
+    "url": "https://script.google.com/macros/s/AKfycbwYHfh0ccb9JQfbwPTIV42yyjt8kD-QnLPFKEO6jqsDAEmBdBLq5mhlu4CZK0keqWH1dg/exec"
   }
 }
