@@ -1,22 +1,24 @@
 {
   "app": {
-    "version": "2.5.0",
-    "notes": "「今すぐ更新」ボタンを搭載。今回だけDMGの「初回セットアップ.command」で入れ替えてください",
+    "version": "2.5.1",
+    "notes": "・不具合の報告をアプリの中からできるようにしました（スクリーンショットも送れます）\n・メールアドレスを登録すると、新しい版のお知らせと、報告への返信が届きます",
     "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0",
     "dmg": {
       "arm64": {
         "url": "https://www.dropbox.com/scl/fi/i5j36auihof100niibxts/YLA-AppleSilicon.dmg?rlkey=8fkmuv671s5r0o3kw74pnrvcd&dl=1",
-        "sha256": "f900cdeac236a793d50e31903b953d55ed81eb80997f24c6822f45225670e56f",
-        "size": 95296409
+        "sha256": "ad08d968e533a18349de2dd45891e927ef578e613c38af007f62edc5f6d7d5c1",
+        "size": 95092164
       },
       "x86_64": {
         "url": "https://www.dropbox.com/scl/fi/ffo1n9xnhmx08eohaj3t0/YLA-Intel.dmg?rlkey=bnp3czftfx1mbqp5o2xutj73d&dl=1",
-        "sha256": "43589e8592162705f33f355c1888ade6bd75e7fe0c816c95069cc9eebdedcf9e",
-        "size": 96005070
+        "sha256": "f97daf836c818126a6a78064afb208a07e9e160ec3c1395d46299225cff4cd78",
+        "size": 98055277
       }
     },
     "win": {
-      "url": "https://www.dropbox.com/scl/fi/1zoqo0yek7wf974x9gl0m/YLA-Windows-Setup.exe?rlkey=ulk6kaz3vj9f3x689ed8vefu1&dl=1"
+      "url": "https://www.dropbox.com/scl/fi/1zoqo0yek7wf974x9gl0m/YLA-Windows-Setup.exe?rlkey=ulk6kaz3vj9f3x689ed8vefu1&dl=1",
+      "sha256": "f27837c703b26d72e7f8e708fa9f908e84774cdb248b127518896ccdb762db6a",
+      "size": 39240124
     }
   },
   "data": {
