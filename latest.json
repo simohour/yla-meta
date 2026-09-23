@@ -1,25 +1,26 @@
 {
   "app": {
-    "version": "2.5.4",
-    "notes": "・字幕・歌詞の翻訳が動かなくなっていたのを直しました\n・Wiki（Wikipedia）の翻訳も直し、開いた直後はプレイ画面を出さないようにしました\n・逆引き検索で、アーティストのカードを押すとその人の分だけ表示できるようにしました\n・不具合報告のスクリーンショットが貼り付けやすくなりました（PNG/JPG/TIFF など対応、大きい画像だけ自動で圧縮）\n・国を選ぶ画面を ＋ にまとめ、地図が出ないことがある問題を直しました\n・Windows: 起動中にインストーラを実行しても失敗しないようにしました",
+    "version": "2.5.5",
+    "notes": "・使い方のページを入れました。画面左上の ？ から開きます。ボタンの名前と説明、動画の大きさの変え方、★、プレイリストへの入れ方、etc / Album / Dig / Wiki タブ、逆引き検索、YouTube 検索を、画面の写真つきで載せています\n・日本語以外の曲名・アーティスト名に、公式の英語名を併記するようにしました。その英語名でも逆引き検索で引けます（「Southern All Stars」でサザンオールスターズの曲が出ます）。裏が取れたものだけ載せているので、付かない曲もあります（アーティスト871件・曲1,702件）\n・英語表示に対応しました。不具合の報告まわりと、並べ替えなど一部の画面が英語になります。選んだ言語は次に開いたときも覚えています。受付からのメールも英語で届きます\n・再生中の曲名・アーティスト名を押すと、コピーに加えて検索窓にも入るようにしました\n・アイコンだけのボタンは、カーソルを合わせるとすぐ名前が出ます\n・ボタンの絵を、用途に合ったものに揃えました。並べ替えで「エンゲージメント率」と「いいね加速度」、「公開日」と「長さ」が同じ絵で色でしか見分けられなかったのと、書き出し・読み込みの矢印が上下逆だったのを直しています。絵文字のボタン44個も、Mac と Windows で字形が変わるため描いた絵に置き換えました\n・画面から消えていた色を直しました（プレイリストの取り込みタブの選択色、取り込みの進捗バー、選択中プレイリストの左の縦線、逆引き検索の行にカーソルを合わせたときの色）\n・チャートのパネルを2つ同時に開くとアプリが落ちることがあったのを直しました\n・＋を押してもプレイリストに入らないことがあったのを直し、どのプレイリストに入ったかも出るようにしました\n・不具合を報告したとき、送信のあいだ画面が固まっていたのをやめ、裏で送るようにしました\n・年代バーの数字の重なり、逆引き検索が狭い幅で崩れる、Wiki（WLSA）のヘッダーが詰まって入力できない、も直しました",
     "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0",
     "dmg": {
       "arm64": {
         "url": "https://www.dropbox.com/scl/fi/i5j36auihof100niibxts/YLA-AppleSilicon.dmg?rlkey=8fkmuv671s5r0o3kw74pnrvcd&dl=1",
-        "sha256": "840caefd8e4f3156ae5b0078add3fa2b768a143bbf46807dc1b4114e7efb71be",
-        "size": 101269557
+        "sha256": "b5b7ae8050a00f698334ab6f8be0cab16aa180c893b2e254af7012420fe53241",
+        "size": 102943549
       },
       "x86_64": {
         "url": "https://www.dropbox.com/scl/fi/ffo1n9xnhmx08eohaj3t0/YLA-Intel.dmg?rlkey=bnp3czftfx1mbqp5o2xutj73d&dl=1",
-        "sha256": "1efbdd33c2a520380d43837fe7168e491b0369359df60eab5691a1178133f318",
-        "size": 107083295
+        "sha256": "2118e467590985b2282e66da9da54e611ba03341ae0cd66ae1cec1e5965d2e88",
+        "size": 109439625
       }
     },
     "win": {
       "url": "https://www.dropbox.com/scl/fi/1zoqo0yek7wf974x9gl0m/YLA-Windows-Setup.exe?rlkey=ulk6kaz3vj9f3x689ed8vefu1&dl=1",
-      "sha256": "d6c6b9d2da4ba72b980c1db0aa8c5296a48494ac922e09f88efa9789638ba16f",
-      "size": 43281856
-    }
+      "sha256": "839b7bbea9a62e7cad0b42c03afda026039e8a0f9fb9de449d2a22d814a70d2d",
+      "size": 44283850
+    },
+    "notesEn": "・A \"How to use\" page, opened from the ? button at the top left. It covers what every button does, changing the video size, ★ favourites, adding to playlists, the etc / Album / Dig / Wiki tabs, reverse search and YouTube search, with screenshots throughout\n・Song and artist names that aren't in English now show their official English name alongside, and you can search by that name too (typing \"Southern All Stars\" finds サザンオールスターズ). Only names we could verify are shown, so some songs have none (871 artists, 1,702 songs)\n・English is now supported. The bug report screens and parts of the interface such as sorting are translated, and your choice of language is remembered. Emails from the report desk arrive in English as well\n・Clicking the title or artist of the playing video now puts it in the search box as well as copying it\n・Buttons that show only an icon now display their name as soon as you point at them\n・Button icons now match what they do. \"Engagement rate\" and \"like acceleration\" shared an icon, as did \"release date\" and \"length\" — only the colour told them apart — and the export/import arrows pointed the wrong way. All 44 emoji buttons were replaced with drawn icons, because emoji look different on Mac and Windows\n・Colours that had vanished are back (the selected tab in the playlist import panel, the import progress bar, the left edge of the selected playlist, and the highlight on reverse-search rows)\n・Fixed a crash when two chart panels were opened at once\n・Fixed the ＋ button sometimes not adding to a playlist, and it now tells you which playlist the song went into\n・Reporting a bug no longer freezes the screen while sending\n・Also fixed: overlapping year-bar numbers, reverse-search rows breaking at narrow widths, and the Wiki (WLSA) header becoming too cramped to type in"
   },
   "data": {
     "version": 20260921,
