@@ -1,24 +1,24 @@
 {
   "app": {
-    "version": "2.5.1",
-    "notes": "・不具合の報告をアプリの中からできるようにしました（スクリーンショットも送れます）\n・メールアドレスを登録すると、新しい版のお知らせと、報告への返信が届きます",
+    "version": "2.5.2",
+    "notes": "・不具合の報告画面から、新しい版のお知らせに登録できるようにしました\n・チャートの国を44→69に増やしました（タイ・ベトナム・台湾・シンガポールなど）。地図からも選べます\n・国旗が Windows でも絵で表示されるようにしました\n・プレイヤーの大きさ切替をキー 1〜4 に整理し、画面まわりを整理しました\n・Billboard週間チャートと動画情報の取得が失敗していた問題を直しました",
     "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0",
     "dmg": {
       "arm64": {
         "url": "https://www.dropbox.com/scl/fi/i5j36auihof100niibxts/YLA-AppleSilicon.dmg?rlkey=8fkmuv671s5r0o3kw74pnrvcd&dl=1",
-        "sha256": "ad08d968e533a18349de2dd45891e927ef578e613c38af007f62edc5f6d7d5c1",
-        "size": 95092164
+        "sha256": "91f67e3a98a55ad283060c2afec49d110dfe0adb3de7c351af23cddc3f1b2f2d",
+        "size": 95973953
       },
       "x86_64": {
         "url": "https://www.dropbox.com/scl/fi/ffo1n9xnhmx08eohaj3t0/YLA-Intel.dmg?rlkey=bnp3czftfx1mbqp5o2xutj73d&dl=1",
-        "sha256": "f97daf836c818126a6a78064afb208a07e9e160ec3c1395d46299225cff4cd78",
-        "size": 98055277
+        "sha256": "5759f4d4bee8b62533174297160dc9d944b5083ecaa45d0cfef98c193fa312d3",
+        "size": 101460895
       }
     },
     "win": {
       "url": "https://www.dropbox.com/scl/fi/1zoqo0yek7wf974x9gl0m/YLA-Windows-Setup.exe?rlkey=ulk6kaz3vj9f3x689ed8vefu1&dl=1",
-      "sha256": "f27837c703b26d72e7f8e708fa9f908e84774cdb248b127518896ccdb762db6a",
-      "size": 39240124
+      "sha256": "f5d55d9a124acf52e6fe8f75b37ed4410a3a757781614cf46cfed5b0c07ef5bd",
+      "size": 39528198
     }
   },
   "data": {
