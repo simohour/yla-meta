@@ -1,24 +1,24 @@
 {
   "app": {
-    "version": "2.5.3",
-    "notes": "・全画面のときにショートカット（2・3・4）が効かない問題を直しました\n・etc などのアイコンにカーソルを合わせると名前が出るようにしました\n・不具合報告の 🐛 を画面左上（YLA の隣）に移し、大きくしました\n・起動時に、報告いただいた内容のその後（直った／確認中）をお知らせするようにしました",
+    "version": "2.5.4",
+    "notes": "・字幕・歌詞の翻訳が動かなくなっていたのを直しました\n・Wiki（Wikipedia）の翻訳も直し、開いた直後はプレイ画面を出さないようにしました\n・逆引き検索で、アーティストのカードを押すとその人の分だけ表示できるようにしました\n・不具合報告のスクリーンショットが貼り付けやすくなりました（PNG/JPG/TIFF など対応、大きい画像だけ自動で圧縮）\n・国を選ぶ画面を ＋ にまとめ、地図が出ないことがある問題を直しました\n・Windows: 起動中にインストーラを実行しても失敗しないようにしました",
     "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0",
     "dmg": {
       "arm64": {
         "url": "https://www.dropbox.com/scl/fi/i5j36auihof100niibxts/YLA-AppleSilicon.dmg?rlkey=8fkmuv671s5r0o3kw74pnrvcd&dl=1",
-        "sha256": "d3a1c695e92ac4e772e78b34f14b8547bcb80dc7489e11e68532d1e683afdaf6",
-        "size": 97143636
+        "sha256": "840caefd8e4f3156ae5b0078add3fa2b768a143bbf46807dc1b4114e7efb71be",
+        "size": 101269557
       },
       "x86_64": {
         "url": "https://www.dropbox.com/scl/fi/ffo1n9xnhmx08eohaj3t0/YLA-Intel.dmg?rlkey=bnp3czftfx1mbqp5o2xutj73d&dl=1",
-        "sha256": "7d0085b8f44fbdc8361a0d7dbfb0e3650c79a26bdcbaff623e47d25c72db2b15",
-        "size": 102603574
+        "sha256": "1efbdd33c2a520380d43837fe7168e491b0369359df60eab5691a1178133f318",
+        "size": 107083295
       }
     },
     "win": {
       "url": "https://www.dropbox.com/scl/fi/1zoqo0yek7wf974x9gl0m/YLA-Windows-Setup.exe?rlkey=ulk6kaz3vj9f3x689ed8vefu1&dl=1",
-      "sha256": "67288d03c975e8be55152c6bab0ccf5c729a54d24fe5b855c42b3455a67ec131",
-      "size": 39530504
+      "sha256": "d6c6b9d2da4ba72b980c1db0aa8c5296a48494ac922e09f88efa9789638ba16f",
+      "size": 43281856
     }
   },
   "data": {
