@@ -1,26 +1,26 @@
 {
   "app": {
-    "version": "2.5.6",
-    "notes": "・ヘッダーの 🐛（不具合の報告）と ？（使い方）が黒くて見えなくなっていたのを直しました。前回の版で絵文字を描いた絵に置き換えたときの入れ忘れです\n・出どころの印（YT Music / Billboard / Grammy / MTV）と文字がくっついて読みにくかったので、隙間を入れました\n・年代バーを作り直しました。1年ずつの細かいマス目をやめ、データのある年代をひと続きのグラデーションで表します。データの無い年代は暗いままです\n・動画のダウンロード機能を廃止しました。ボタン・設定画面・ショートカットもあわせて外しています\n・一覧の行から再生ボタンを外しました。行のどこを押しても再生できるので重なっていました。★と ＋ は右端にまとめ、カーソルを近づけたときだけ出します。★を付けた行は、カーソルが無くても★が残ります",
+    "version": "2.5.7",
+    "notes": "・外からの入口を締めました。同じ Wi-Fi につないだ別の機械から YLA の中身に届いてしまう状態だったのを、自分の機械の中だけに閉じました ・ブラウザで別のページを開いている間に、そのページから YLA を読み書きできてしまう状態を直しました ・アドレスの書き方を工夫すると、アプリの外にあるファイルまで読めてしまう穴を塞ぎました ・不具合報告の受付で、開発者用の一覧・更新に合言葉を必須にしました（報告を送る側には影響しません）",
     "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0",
     "dmg": {
       "arm64": {
         "url": "https://www.dropbox.com/scl/fi/i5j36auihof100niibxts/YLA-AppleSilicon.dmg?rlkey=8fkmuv671s5r0o3kw74pnrvcd&dl=1",
-        "sha256": "18a2a1a70309f3acd10d1773369403857e855ec3f5096d537f0b79d3c347fe48",
-        "size": 99641870
+        "sha256": "3add1861a5523a81953b4a5f711f2241c8415c86b117fd4c410cfebb1c636fe4",
+        "size": 103250230
       },
       "x86_64": {
         "url": "https://www.dropbox.com/scl/fi/ffo1n9xnhmx08eohaj3t0/YLA-Intel.dmg?rlkey=bnp3czftfx1mbqp5o2xutj73d&dl=1",
-        "sha256": "18417cce644ae977f93a422c7fd19c37c20de3c0a8976243a96dc47ccf355754",
-        "size": 106943085
+        "sha256": "3c756dc51a1a7600fe80796ae0f3f483bb381a1ec6ccdce7d3d12acc0fbc3b67",
+        "size": 107534660
       }
     },
     "win": {
       "url": "https://www.dropbox.com/scl/fi/1zoqo0yek7wf974x9gl0m/YLA-Windows-Setup.exe?rlkey=ulk6kaz3vj9f3x689ed8vefu1&dl=1",
-      "sha256": "14122263087291f54466bc36f15c8d8763389baf313d64c14670c8b94314033d",
-      "size": 44276251
+      "sha256": "710c7c53c92a297b435237a0f994b00fdab2de78d56089d7d740fc0185889dd7",
+      "size": 44534188
     },
-    "notesEn": "・Fixed the 🐛 (report a problem) and ? (how to use) buttons in the header being black and invisible. They were missed when emoji were replaced with drawn icons in the last version\n・Added a small gap between the source marks (YT Music / Billboard / Grammy / MTV) and their labels, which were touching and hard to read\n・Rebuilt the year bar. Instead of one small cell per year, the years that have data are now drawn as a single continuous gradient, with years that have no data left dark\n・Removed the video download feature, along with its buttons, settings screen and shortcuts\n・Removed the play button from list rows — clicking anywhere on the row already plays it. ★ and ＋ now sit together at the right edge and appear when you point at the row. Rows you have starred keep showing the ★ even without pointing at them"
+    "notesEn": "- Closed the app to the outside network. YLA was reachable from other machines on the same Wi-Fi; it now listens only on this machine - Fixed an issue where a web page open in your browser could read and write YLA's data - Closed a hole that let crafted addresses read files outside the app folder - The developer-side report list now requires a separate passphrase (sending a report is unaffected)"
   },
   "data": {
     "version": 20260921,
