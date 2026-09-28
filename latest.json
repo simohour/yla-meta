@@ -1,26 +1,26 @@
 {
   "app": {
-    "version": "2.5.8",
-    "notes": "・不具合報告に付ける「操作ログ」について、お詫びと修正があります。これまで画面に「個人情報は含みません」と書いていましたが、実際には逆引き検索に入力した言葉が記録されていました。記録をやめ、すでにお預かりしていた分は消しました ・操作ログの添付を、既定で「付けない」に変えました。付けるかどうかは毎回選べて、送る前に中身をそのまま確認できます（「送る中身を確認する →」）。付けて送る場合も、ファイルの場所やメールアドレスは伏せ字にしてから送ります ・お問い合わせ先を作りました。support@magichoure-studio.com です。報告メールに返信してもここに届きます。説明書にも載せました ・新しい版のお知らせに署名を付けました。アプリは署名を確かめてからでないと更新しません。偽のお知らせで別のものを入れられることを防ぎます ・ライセンスキーの仕組みを内側で整理しました。いまお使いのキーはそのまま使えます",
+    "version": "2.5.9",
+    "notes": "・不具合報告でお預かりしたものに期限を設けました。スクリーンショットと操作ログは30日、報告の本文は対応が終わってから90日で、自動的に消えます ・「このアプリが送るもの」という説明を説明書に載せました。送るのは3つのときだけで、聴いた曲・検索した言葉・★を付けた動画は送っていません。不具合報告の画面からも開けます ・報告の受付先を、作者個人のアカウントから仕事用のアカウントへ移しました。お預かりしたものの置き場所が、作者の私物と分かれます ・そのほか、配布物の作り方とライセンスの仕組みを内側で整理しました。いまお使いのキーはそのまま使えます",
     "downloadUrl": "https://www.dropbox.com/scl/fo/0i6ohw0sc50r5dr8jzqej/ACCxozIJULbBfZDbyBGjNKw?rlkey=gwqengwmmw60u9dawif75e59p&dl=0",
     "dmg": {
       "arm64": {
         "url": "https://www.dropbox.com/scl/fi/i5j36auihof100niibxts/YLA-AppleSilicon.dmg?rlkey=8fkmuv671s5r0o3kw74pnrvcd&dl=1",
-        "sha256": "802895eb395e3f361b2fc9c23481619b3b3ffba9d89f05b65ed3b70e26aa10fa",
-        "size": 100084505
+        "sha256": "7918d45dd2a075a640ece2760c78e7d7d9f30cd2893df498b52a65fe1ceb67f4",
+        "size": 103539785
       },
       "x86_64": {
         "url": "https://www.dropbox.com/scl/fi/ffo1n9xnhmx08eohaj3t0/YLA-Intel.dmg?rlkey=bnp3czftfx1mbqp5o2xutj73d&dl=1",
-        "sha256": "5f5baedca03a8a58309f7b82dbe5fce20b2973d8192a3cb1e81c24aaf3597458",
-        "size": 108536846
+        "sha256": "53354b75df6853c813880e3c19a8e2d2a035ce017f933ea784554a78737f2dde",
+        "size": 109307953
       }
     },
     "win": {
       "url": "https://www.dropbox.com/scl/fi/1zoqo0yek7wf974x9gl0m/YLA-Windows-Setup.exe?rlkey=ulk6kaz3vj9f3x689ed8vefu1&dl=1",
-      "sha256": "4a7e45ddc85a3c7a8b54cadecfc24082c7bc77ed8a2d0179de66fd41b0fa544b",
-      "size": 44538143
+      "sha256": "f838e2691af31e3bd6ba60636819874f9894dc2c78097832094bd8fb9ff71167",
+      "size": 44946560
     },
-    "notesEn": "- An apology and a fix about the action log attached to bug reports. The screen said \"No personal data\", but the words you typed into reverse search were in fact being recorded. We have stopped recording them and deleted what we already held - Attaching the action log is now off by default. You choose each time, and you can read exactly what will be sent before sending it (\"See what will be sent\"). When you do send it, file paths and email addresses are masked first - There is now a contact address: support@magichoure-studio.com. Replies to report emails arrive there too. It is in the manual as well - Update announcements are now signed. The app will not update unless the signature checks out, so a forged announcement cannot install something else - Some internal rework of how licence keys are handled. Your current key keeps working"
+    "notesEn": "- Anything you send with a bug report now has an expiry. Screenshots and action logs are deleted after 30 days; the report text goes 90 days after the report is closed - The manual now explains what this app sends. It sends data in only three situations, and never what you played, what you searched for or what you starred. You can open it from the bug report screen - Reports now arrive at a work account instead of the author's personal one, so what you send is kept apart from the author's own things - Other internal rework of how the app is packaged and how licence keys are handled. Your current key keeps working"
   },
   "data": {
     "version": 20260921,
@@ -34,5 +34,5 @@
   "feedback": {
     "url": "https://script.google.com/macros/s/AKfycbwJQGb6T0LbEpVOuRrobXAqlLHbeA-PFiwOsRYJlyn7L2MS9lg9Lttc7LjGXKIIocKzOg/exec"
   },
-  "iat": 1790572238
+  "iat": 1790575207
 }
