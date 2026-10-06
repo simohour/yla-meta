@@ -29,10 +29,10 @@
   "live": {
     "packUrl": "https://github.com/simohour/yla-meta/releases/download/live-pack/chart-pack-20261006.zip",
     "version": 20261006,
-    "sha256": "59822bb8752e0102f6a63a5028ba084649e9f852ebf69bf098cac3dbf4c8759a"
+    "sha256": "7985f4afe2da27708d2c884ee87aebb0a181cbced738b33032317335b1d930e5"
   },
   "feedback": {
     "url": "https://script.google.com/macros/s/AKfycbwJQGb6T0LbEpVOuRrobXAqlLHbeA-PFiwOsRYJlyn7L2MS9lg9Lttc7LjGXKIIocKzOg/exec"
   },
-  "iat": 1791214035
+  "iat": 1791256922
 }
