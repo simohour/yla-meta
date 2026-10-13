@@ -27,12 +27,12 @@
     "notes": "Billboard年間チャートの年重複を修復"
   },
   "live": {
-    "packUrl": "https://github.com/simohour/yla-meta/releases/download/live-pack/chart-pack-20261013.zip",
-    "version": 20261013,
-    "sha256": "0af99f21a5c371341d878c8663afbb79f9ea4fa1cf7950865c130baf93811c23"
+    "packUrl": "https://github.com/simohour/yla-meta/releases/download/live-pack/chart-pack-20261014.zip",
+    "version": 20261014,
+    "sha256": "23b29a97277090831f258dfedbca39b9bf321741fd45f3aa0b2950515fecac93"
   },
   "feedback": {
     "url": "https://script.google.com/macros/s/AKfycbwJQGb6T0LbEpVOuRrobXAqlLHbeA-PFiwOsRYJlyn7L2MS9lg9Lttc7LjGXKIIocKzOg/exec"
   },
-  "iat": 1791817368
+  "iat": 1791903769
 }
